@@ -2,6 +2,18 @@ import { startBot } from "./bot/telegram.js";
 import { loadMcpTools } from "./agent/mcp.js";
 import { registerTools } from "./agent/tools.js";
 import { config } from "./config/env.js";
+import express from "express";
+
+const app = express();
+const port = process.env.PORT || 3000;
+
+app.get('/', (req: any, res: any) => {
+    res.send('🐾 Peng Bot is alive and running!');
+});
+
+app.listen(port, () => {
+    console.log(`📡 Health check server listening at http://localhost:${port}`);
+});
 
 async function bootstrap() {
     console.log("🐾 Peng başlatılıyor...\n");

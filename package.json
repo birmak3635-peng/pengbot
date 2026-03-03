@@ -18,11 +18,13 @@
     "grammy": "^1.35.0",
     "groq-sdk": "^0.37.0",
     "node-cron": "^4.2.1",
-    "openai": "^6.25.0"
+    "openai": "^6.25.0",
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "@types/node": "^22.13.5",
     "@types/node-cron": "^3.0.11",
+    "@types/express": "^4.17.17",
     "tsx": "^4.19.3",
     "typescript": "^5.7.3"
   }
