@@ -1,0 +1,29 @@
+{
+  "name": "gravity-claw",
+  "version": "1.0.0",
+  "description": "Gravity Claw — Personal AI assistant on Telegram",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "test": "tsx src/transcription/__test__.ts && tsx src/memory/__test__.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "dotenv": "^16.4.7",
+    "duckduckgo-mcp-server": "^0.1.2",
+    "edge-tts-universal": "^1.4.0",
+    "elevenlabs": "^1.59.0",
+    "grammy": "^1.35.0",
+    "groq-sdk": "^0.37.0",
+    "node-cron": "^4.2.1",
+    "openai": "^6.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "@types/node-cron": "^3.0.11",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}

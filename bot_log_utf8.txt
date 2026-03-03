@@ -1,0 +1,86 @@
+﻿­şÉ¥ Gravity Claw ba┼şlat─▒l─▒yor...
+
+­şöî MCP Sunucusuna ba─şlan─▒l─▒yor: DuckDuckGo Search...
+node.exe : [INFO] DuckDuckGo S
+earch MCP Server running on st
+dio
+At line:1 char:1
++ & "C:\Program Files\nodejs/n
+ode.exe" "C:\Program Files\nod
+ejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo          : 
+    NotSpecified: ([INFO] Du  
+  ckDuck...unning on stdio:   
+ String) [], RemoteExcepti    
+on
+    + FullyQualifiedErrorId : 
+    NativeCommandError
+ 
+Ô£à DuckDuckGo Search ├╝zerinde 1 ara├ğ bulundu.
+­şøá´©Å Ara├ğ kaydedildi: duckduckgo_web_search
+Ô£à Ortam de─şi┼şkenleri do─şruland─▒.
+­şÄñ Voice In: aktif (Whisper API)
+­şùú´©Å Voice Out: aktif (OpenAI TTS-1)
+­şğá Bellek: aktif (yerel fallback)
+­şÆô Heartbeat: devre d─▒┼ş─▒
+ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+­şÜÇ Gravity Claw is alive!
+   Bot: @Peng35_bot
+   Whitelist: user_id=7564354415
+   Mod: long-polling (web server yok)
+ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+C:\yaz─▒l─▒m dosyalar─▒\peng\n
+ode_modules\grammy\out\core\er
+ror.js:47
+    return new GrammyError(`Ca
+ll to '${method}' failed!`, er
+r, method, payload);
+           ^
+
+GrammyError: Call to 'getUpdat
+es' failed! (409: Conflict: te
+rminated by other getUpdates r
+equest; make sure that only on
+e bot instance is running)
+    at toGrammyError (C:\yaz─▒
+l─▒m dosyalar─▒\peng\node_modu
+les\grammy\out\core\error.js:4
+7:12)
+    at ApiClient.callApi (C:\y
+az─▒l─▒m dosyalar─▒\peng\node_
+modules\grammy\out\core\client
+.js:97:48)
+    at process.processTicksAnd
+Rejections (node:internal/proc
+ess/task_queues:104:5)
+    at async Bot.fetchUpdates 
+(C:\yaz─▒l─▒m dosyalar─▒\peng\
+node_modules\grammy\out\bot.js
+:423:27)
+    at async Bot.loop (C:\yaz─
+▒l─▒m dosyalar─▒\peng\node_mod
+ules\grammy\out\bot.js:394:33)
+    at async Bot.start (C:\yaz
+─▒l─▒m dosyalar─▒\peng\node_mo
+dules\grammy\out\bot.js:315:9)
+ {
+  method: 'getUpdates',
+  payload: {
+    offset: 1,
+    limit: undefined,
+    timeout: 30,
+    allowed_updates: undefined
+  },
+  ok: false,
+  error_code: 409,
+  description: 'Conflict: term
+inated by other getUpdates req
+uest; make sure that only one 
+bot instance is running',
+  parameters: {}
+}
+
+Node.js v24.14.0
