@@ -5,14 +5,14 @@ import { config } from "./config/env.js";
 import express from "express";
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = Number(process.env.PORT) || 3000;
 
 app.get('/', (req: any, res: any) => {
     res.send('🐾 Peng Bot is alive and running!');
 });
 
-app.listen(port, () => {
-    console.log(`📡 Health check server listening at http://localhost:${port}`);
+app.listen(port, '0.0.0.0', () => {
+    console.log(`📡 Health check server listening on port ${port}`);
 });
 
 async function bootstrap() {
